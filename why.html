@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="en" style="" class="js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
+ <head profile="http://www.w3.org/1999/xhtml/vocab"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<link rel="shortcut icon" href="#" type="image/vnd.microsoft.icon">
+<meta name="description" content="Ajoo Platform">
+                <title>Ajoo Platform | Why?</title>
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#0082C2">
+
+        <!-- Stylesheets  -->
+        <style type="text/css" media="all">
+@import url("asset/css/jquery.ui.accordion.min.css");
+</style>
+<style type="text/css" media="all">
+@import url("asset/css/calendar_multiday.css");
+@import url("asset/css/ate.html");
+@import url("asset/css/datepicker.1.7.css");
+@import url("asset/css/views.css");
+@import url("asset/css/ckeditor.css");
+</style>
+<style type="text/css" media="all">
+@import url("asset/css/ctools.html");
+@import url("asset/css/content_type_extras.html");
+</style>
+<style type="text/css" media="all">
+@import url("asset/css/animate.min.css");
+@import url("asset/css/main.css");
+@import url("asset/css/app.css");
+</style>
+        <!-- User defined CSS --><style type="text/css">.node-unpublished {
+	background-color: transparent;
+	border: 2px solid red;
+}
+/*Align features to top*/
+@media screen and (min-width: 768px) {
+	.features .row.text-center {
+		justify-content: center;
+		display: flex;
+		align-items: flex-start;
+	}
+}
+@media screen and (max-width: 992px) {
+	.navbar-nav {
+		clear: right;
+	}
+	 .content-img img {
+		max-width: 100%;
+		padding-top: 3rem;
+	}
+	.page-node-1 #node-1 .col-md-5.text-right {
+		text-align: center;
+	}
+
+	.login {
+   		 background-color: #e9e9e9;
+		    font-size: 16px;
+		    color: #2f2f33;
+		    padding: 8px 29px;
+		    float: none;
+		    margin-top: 30px;
+		    font-weight: 600;
+		    display: inline-block;
+		    text-align: center;
+		    width: 45%;
+		    margin-left: 4%;
+	}
+
+	.start-saving {
+		background-color: #dd2c4a;
+	    font-family: 'sans', sans-serif;
+	    font-size: 16px;
+	    font-weight: 400;
+	    text-align: center;
+	    color: #ffffff;
+	    padding: 8px 13px;
+	    margin-left: 0px;
+	    float: none;
+	    margin-top: 30px;
+	    clear: both;
+	    display: inline-block;
+	    width: 50%;
+	}
+}
+
+
+@media screen and (max-width: 425px) {
+	#pageContent .panel-title a {
+		font-size: 20px;
+	}
+
+	.navbar-microsite .navbar-brand {
+		padding: 8px;
+	}
+
+	.navbar-microsite .nav > li {
+	    text-align: center;
+	}
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1198px) {
+
+#piggy {
+    display: block;
+    position: absolute;
+    width: 90%;
+    bottom: -2px;
+}
+
+.navbar-nav > li > a {
+    font-size: 1em;
+}
+}
+
+
+#sallie-mae {
+    margin-left: -5px;
+}
+
+
+
+
+h3.views-field.views-field-title {
+    margin-bottom: 0px !important;
+}
+
+
+h3.views-field.views-field-title a {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 29px;
+    color: #3E3E42 !important;
+}
+
+.view-news .views-field.views-field-created {
+    margin-bottom: 24px;
+        font-family: Lato;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 20px;
+    color: #666666 !important;
+    text-transform: uppercase;
+}
+
+.views-field.views-field-view-node a {
+    font-family: "sans";
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 23px !important;
+    color: #008DC9 !important;
+}
+
+
+.view-news .views-row {
+    border-bottom: 1px solid #E9E9E9;
+    padding-bottom: 30px;
+}
+
+
+.view-news .views-row:last-child {
+	border-bottom: none;
+}
+
+
+.view-news .view-footer {
+    display: inline-block;
+    text-align: center;
+    width: 49%;
+    float: right;
+}
+
+.view-news .view-content {
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+
+.node-blog .links.inline {
+	display: none;
+}
+
+.node-type-blog .internal-banner h1 {
+    font-size: 65px;
+    padding-right: 160px;
+    margin-bottom: 54px;
+}
+
+
+@media screen and (max-width: 768) {
+	.view-news .view-footer {
+		display: none;
+	}
+
+	.view-news .view-content {
+		width: 100%;
+		float: none;
+	}
+}
+
+
+@media screen and (min-width: 768px) {
+	.node-type-blog .internal-banner h1 {
+    		padding-right: 160px;
+        }
+}
+
+@media screen and (max-width: 420px) {
+	#block-block-51 .container {
+		height: auto;
+		max-height: none !important;
+	}
+
+	#block-block-51 .banner-bottom {
+		display: none;
+	}
+	#block-block-51 .thankyou {
+		margin-bottom: 40px;
+	}
+
+	#block-block-51 .pig, .page-node-39.not-logged-in #drupal-actions {
+		display: none;
+	}
+
+	#block-block-51 .btn {
+		margin-bottom: 20px;
+	}
+
+	.page-node-39 #pageContent {
+		padding-top: 45px;
+	}
+
+}
+
+
+
+.site-footer .disclosure a {
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+.features .row .col-md-4:nth-child(2) {
+    display: none;
+}
+
+
+.features .feature .content {
+	text-align: center;
+}</style><!-- End user defined CSS -->        <script type="text/javascript" src="asset/js/modernizr.js"></script>
+        <script type="text/javascript" src="asset/js/jquery.min.js"></script>
+<script type="text/javascript" src="asset/js/jquery.once.js"></script>
+<script type="text/javascript" src="asset/js/drupal.html"></script>
+<script type="text/javascript" src="asset/js/jquery.ui.core.min.js"></script>
+<script type="text/javascript" src="asset/js/jquery.ui.widget.min.js"></script>
+<script type="text/javascript" src="asset/js/jquery.ui.accordion.min.js"></script>
+<script type="text/javascript" src="asset/js/interact.min.js"></script>
+<script type="text/javascript" src="asset/js/appmeasurement.js"></script>
+<script type="text/javascript" src="asset/js/main.js"></script>
+<script type="text/javascript">
+/*<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"smartypig","theme_token":"gf16r8c29YeQiMF2eB4HctH4_9A69SgyMXRg6wS7n44","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.accordion.min.js":1,"sites\/smartypig.q2composer.com\/themes\/smartypig\/scripts\/libs\/interact.min.js":1,"sites\/smartypig.q2composer.com\/themes\/smartypig\/scripts\/appmeasurement.js":1,"sites\/smartypig.q2composer.com\/themes\/smartypig\/scripts\/main.js":1},"css":{"misc\/ui\/jquery.ui.accordion.css":1,"sites\/all\/modules\/contrib\/calendar\/css\/calendar_multiday.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/content_type_extras\/css\/content_type_extras.css":1,"https:\/\/fonts.googleapis.com\/css?family=Source+Sans+Pro:200,300,400,600,700|Josefin+Sans:300,400,700":1,"https:\/\/fonts.googleapis.com\/css?family=Amatic+SC:400,700":1,"https:\/\/maxcdn.bootstrapcdn.com\/font-awesome\/4.5.0\/css\/font-awesome.min.css":1,"sites\/smartypig.q2composer.com\/themes\/smartypig\/styles\/animate.min.css":1,"sites\/smartypig.q2composer.com\/themes\/smartypig\/styles\/main.css":1,"sites\/smartypig.q2composer.com\/themes\/smartypig\/styles\/app.css":1}}});
+//--><!]]>*/
+</script>
+
+        <!--[if lt IE 9]>
+        <script src="/sites/smartypig.q2composer.com/themes/smartypig/scripts/libs/respond.min.js"></script>
+      <![endif]-->
+	<style type="text/css" id="igtranslator-color"></style></head>
+	<body class="html front not-logged-in no-sidebars page-node page-node- page-node-11 node-type-page" style="">
+		<!--[if lt IE 9]>
+		    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+		<![endif]-->
+
+
+				<div class="site-wrapper">
+
+      <!-- Top Navbar
+      ================================================== -->
+      <header class="navbar navbar-microsite" role="navigation">
+        <div class="container  wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+
+          <div class="row navbar-container">
+              <div class="col-md-4 navbar-header ">
+                <a class="navbar-brand" href="index-2.html"><img src="asset/img/logo.png" alt="" class="img-responsive"></a>
+                <button type="button" class="btn navbar-btn pull-right menu-toggle visible-sm visible-xs" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="fa fa-bars fa-2x"></span>
+                </button>
+              </div>
+              <div class="col-md-8 navbar-collapse collapse">
+                  <div class="region region-mainbuttons">
+    <div id="block-block-16" class="block block-block">
+
+
+  <div class="content">
+    <div><a class="start-saving" href="javascript:void(0)" onClick="clickMe('clickSaving','savingCont')" id="clickSaving">
+    Start Saving</a>
+    <a class="login" href="javascript:void(0)" onClick="clickMe('clickLogin','loginCont')" id="clickLogin"> Login</a></div>
+  </div>
+</div>
+  </div>
+                <ul class="nav navbar-nav" style="margin-left:-170px;">
+                	<li class="menu-844 first"><a href="index-2.html">Home</a></li>
+                	<li class="menu-844"><a href="what.html">What is Ajoo Platform?</a></li>
+					<li class="menu-843 active"><a href="why.html">Why Ajoo Platform?</a></li>
+					<li class="menu-842"><a href="how.html">How it works</a></li>
+					<li class="menu-846 last"><a href="faq.html">FAQs</a></li>
+				</ul>   </div>
+          </div>
+        </div> <!-- /.container -->
+      </header> <!-- /.navbar -->
+
+
+<script>
+function clickMe(x,y){
+	var submit = document.getElementById(x);
+	var content = document.getElementById(y);
+	if(content.style.display === 'none'){
+		submit.style.display = 'block';
+		content.style.display = 'block';
+	} else{
+		submit.style.display = 'block';
+		content.style.display = 'none';
+	}
+}
+</script>
+    <!-- Login Form
+      ================================================== -->
+<div class="row login-modal fadeInDown" id="loginCont" style="display:none;">
+	<div class="col-md-6 modal-content">
+		<h3 class="">Log in</h3>
+        <span onClick="clickMe('closeLogin','loginCont')" id="closeLogin">x</span>
+
+		<form action="http://syntaxict.com.ng/ajoo/login" class="clearfix ajax-form">
+			<div class="form-group">
+                <label for="email">E-mail or Username</label>
+                <input type="text" name="email" id="email" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" class="form-control">
+            </div>
+
+            <div class="form-group">
+                <div class="checkbox">
+	                <label><input type="checkbox" name="remember" value="1">Remember me</label>
+	            </div>
+            </div>
+
+	        <div class="form-group pull-left">
+				<button type="submit" name="submit" class="btn btn-primary">Log in</button>
+			</div>
+
+			<div class="form-group pull-right">
+				<a href="reminder.html">Forget Password</a> <br>
+				<a href="activation.html">Resend activation E-mail</a>
+			</div>
+
+			<div class="clearfix"></div>
+		</form>
+	</div>
+</div>
+
+    <!--. Login Form Ends
+      ================================================== -->
+
+
+
+
+    <!-- Start Saving
+      ================================================== -->
+<div class="row login-modal fadeInDown" id="savingCont" style="display:none;">
+	<div class="col-md-6 modal-content">
+		<h3 class="">Start Saving</h3>
+        <span onClick="clickMe('closeSaving','savingCont')" id="closeSaving">x</span>
+
+		<form action="http://syntaxict.com.ng/ajoo/login" class="clearfix ajax-form">
+          <div class="form-group">
+			        <label for="name_group">Name of Group</label>
+			        <input type="text" name="name_group" id="name_group" class="form-control">
+			    </div>
+
+          <div class="form-group">
+			        <label for="name_sponsor">Name of Sponsor</label>
+			        <input type="text" name="name_sponsor" id="name_sponsor" class="form-control">
+			    </div>
+
+          <div class="form-group">
+			        <label for="tel_sponsor">Tel of Sponsor</label>
+			        <input type="text" name="tel_sponsor" id="tel_sponsor" class="form-control">
+			    </div>
+
+          <div class="form-group">
+			        <label for="email_sponsor">Email of Sponsor</label>
+			        <input type="text" name="email_sponsor" id="email_sponsor" class="form-control">
+			    </div>
+
+          <div class="form-group">
+  					<button type="submit" name="submit" class="btn btn-primary">Start Saving</button>
+  				</div>
+
+          <div class="col-md-6">
+            <div class="">
+              <div class="form-group col-md-6">
+                <label for="input_array_name[]">1. Name</label>
+                <input id="input_name_1" type="text" name="input_array_name[]" class="form-control">
+              </div>
+              <div class="form-group col-md-5">
+                <label for="input_array_tel">1. Tel</label>
+                <input id="input_tel_1" type="text" name="input_array_tel[]" class="form-control">
+              </div>
+            </div>
+
+            <div class="">
+              <div class="form-group col-md-6">
+                <label for="input_array_name[]">2. Name</label>
+                <input id="input_name_2" type="text" name="input_array_name[]" class="form-control">
+              </div>
+              <div class="form-group col-md-5">
+                <label for="input_array_tel[]">2. Tel</label>
+                <input id="input_tel_2" type="text" name="input_array_tel[]" class="form-control">
+              </div>
+            </div>
+
+            <div class="">
+              <div class="form-group col-md-6">
+                <label for="input_array_name[]">3. Name</label>
+                <input id="input_name_3" type="text" name="input_array_name[]" class="form-control">
+              </div>
+              <div class="form-group col-md-5">
+                <label for="input_array_tel[]">3. Tel</label>
+                <input id="input_tel_3" type="text" name="input_array_tel[]" class="form-control">
+              </div>
+            </div>
+
+            <div class="wrapper">
+              <div class="form-group col-md-6">
+                <label for="input_array_name[]">4. Name</label>
+                <input id="input_name_4" type="text" name="input_array_name[]" class="form-control">
+              </div>
+              <div class="form-group col-md-5">
+                <label for="input_array_tel[]">4. Tel</label>
+                <input id="input_tel_4" type="text" name="input_array_tel[]" class="form-control">
+              </div>
+            </div>
+
+            <div class="col-12 form-inline">
+              <small id="addHelpInline" class="text-muted ">
+                Click Add to add more people.
+              </small>
+              <div class="form-group ml-auto" style="padding-bottom:30px;">
+                <button type="button" name="add" class="btn btn-primary btn-large" id="add" aria-describedby="addHelpInline">Add Participant</button>
+              </div>
+            </div>
+          </div>
+
+
+			<div class="clearfix"></div>
+		</form>
+	</div>
+</div>
+
+    <!--. Start Saving Ends
+      ================================================== -->
+
+
+
+    <!-- Banner
+      ================================================== -->
+    <div class="extra-banner">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-3 text-center"><h1>WHY?</h1></div>
+                    <div class="col-md-9 text-left"><img src="asset/img/large-plane-line.png" /></div>
+              </div>
+          </div>
+
+    </div><!-- /.banner -->
+
+
+
+      <!-- Green Banner
+      ================================================== -->
+      <div class="green-banner wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12 text-center">
+                        <div class="region region-homerates">
+    <div id="block-block-3" class="block block-block">
+
+
+  <div class="content">
+    <p>"Save and accomplish your financial goals the smart way."</p>
+  </div>
+</div>
+  </div>
+                  </div>
+              </div>
+          </div>
+      </div><!-- /.green-banner -->
+
+
+
+
+      <!-- Call to Action
+      ================================================== -->
+      <div class="call-to-action what-content why-content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-left">
+                <div class="region region-homemessage">
+    <div id="block-block-8" class="block block-block">
+
+
+  <div class="content">
+    <h2 class="wow fadeIn animated" style="visibility: visible; animation-name: fadeIn;">Why Ajoo Platform?</h2>
+
+	<ul style="color:#000;">
+      <li><p>Are you struggling to meet your savings and personal finance goals?</p></li>
+      <li><p>Do you need money for that start-up idea, school bills or rent, dream car or even vacation?</p></li>
+      <li><p>Have you been in a fix or caught up in the throes of a project, and then wish you had enough money to sort yourself out without the hassles of getting loans on interest?</p></li>
+    </ul>
+
+<p class="lead wow fadeIn animated text-left fadeIn" style="visibility: visible; text-align:left;
+line-height:26px; margin:10px 0px;">It is obvious that saving money by yourself for a specific goals can be quite challenging and dauting, especially with the ongoing economic crunch. So, doing it as a team is the new cool, as it not only encourages your saving habit but also refuels your commitment. This is why Ajoo platform is here to help turn your dreams into financial goals by providing an online tool that connects you to other like-minded people thereby making saving easier, mutually beneficial and fun for all .</p>
+
+  </div>
+</div>
+  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.call-to-action -->
+
+
+<!-- End of all body content -->
+      <div class="push"></div> <!-- /.push #Used with .site-wrapper, and .site-footer for sticky footer -->
+
+    </div> <!-- /.site-wrapper -->
+
+
+
+
+
+    <!-- Fixed Footer
+    ================================================== -->
+    <!-- An height equal to the viewport is given to .site-wrapper. The .push
+         element forces .site-footer to the bottom of the viewport. -->
+    <footer class="site-footer">
+    	<div class="col-sm-2 each">
+        <h6>LEARN MORE</h6>
+        <p><a href="index-2.html">Home</a></p>
+        <p><a href="what.html">What Ajoo Platform?</a></p>
+        <p><a href="why.html">Why Ajoo Platform?</a></p>
+        <p><a href="how.html">How It Works</a></p>
+        <p><a href="faq.html">FAQ</a></p>
+        </div>
+
+
+        <div class="col-sm-2 text-left each">
+        <h6>OUR ADDRESS</h6>
+        <p>Ajoo Platform Building,</p>
+        <p>215 West 125th,</p>
+        <p>410 New York,</p>
+        <p>NY 10027 USA.</p>
+        </div>
+
+
+        <div class="col-sm-3 text-left each">
+        <h6>CONNECT WITH US</h6>
+        <p>
+          <ul>
+          	<li style="margin:0px;"><img src="asset/img/facebook_foot.png" /></li>
+          	<li><img src="asset/img/instagram.png" /></li>
+          	<li><img src="asset/img/twitter.png" /></li>
+          	<li><img src="asset/img/whatsapp_foot.png" /></li>
+          </ul>
+        </p>
+        <p>info@ajooplatform.com</p>
+        <p>support@ajooplatform.com</p>
+        </div>
+
+
+        <div class="col-sm-5 text-left news-letter each">
+            <div class="form-group">
+                <label for="password">Spread the Love!</label>
+                <input type="password" name="password" id="password" class="form-control">
+            </div>
+
+	        <div class="form-group pull-right">
+				<button type="submit" name="submit" class="btn btn-primary">SUBSCRIBE NOW</button>
+			</div>
+        </div>
+
+
+        <div class="col-sm-12 text-center each">
+        	<p  style="color:#000;font-size:16px;">Ajoo Platform, Copyright © 2019. All Rights Reserved. &nbsp; | &nbsp;
+            Designed By: Dominion</p>
+        </div>
+
+
+    </footer>
+
+        <!-- JavaScript
+    ================================================== -->
+    <script>window.jQuery || document.write('<script src="../sites/smartypig.q2composer.com/themes/smartypig/scripts/libs/jquery.min.html"><\/script>')</script>
+
+    <!-- Bootstrap -->
+    <script src="Save%20Money%20with%20Free%20High%20Yield%20Online%20Savings%20Accounts%20_%20SmartyPig_files/bootstrap.min.html"></script>
+
+    <!-- Extras -->
+    <script src="Save%20Money%20with%20Free%20High%20Yield%20Online%20Savings%20Accounts%20_%20SmartyPig_files/wow.min.html"></script>
+    <script>
+     // Inline to save time
+     new WOW().init();
+    </script>
+
+
+
+<div class="igtranslator-main-div" style="display: none; width: 0px; height: 0px;"><iframe src="Save%20Money%20with%20Free%20High%20Yield%20Online%20Savings%20Accounts%20_%20SmartyPig_files/saved_resource.html" class="igtranslator-iframe" scrolling="no" frameborder="0"></iframe></div><div class="igtranslator-activator-icon bounceIn" style="background-image: url(_chrome-extension_/jgnebchahhepphmokjeohhoebakpfggp/data/icons/home.html); display: none;" title="Click to Show Translation"></div></body>
+<!-- Mirrored from syntaxict.com.ng/ajoo/why.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 15 Apr 2019 20:53:21 GMT -->
+</html>
